@@ -1,1 +1,5 @@
-*.shader linguist-detectable=false
+# Tüm HLSL dosyalarını dışarıdan alınan kütüphane (vendor) say ve dillerden çıkar
+*.hlsl linguist-vendored
+*.fx linguist-vendored
+*.cginc linguist-vendored
+*.shader linguist-vendored
